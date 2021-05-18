@@ -1,0 +1,10 @@
+displayName: Return Response Plugin
+type: middleware
+
+import: github.com/lixianliang/traefik-plugin-return-response
+
+summary: 'Return Response Code or Header or Body'
+
+testData:
+  code: 200
+  body: 'Hello Traefik'
